@@ -31,96 +31,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  flutter_native_splash: ^2.3.2
-  http: ^1.1.0
   google_nav_bar: ^5.0.6
+  http: ^1.1.0
   cupertino_icons: ^1.0.2
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_launcher_icons: ^0.13.1
-flutter_icons:
-  android: "ic_launcher"
-  ios: true
-  image_path: "asset/icon/Logo.png"
-  web:
-    generate: true
-    image_path: "asset/icon/Logo.png"
-  windows:
-    generate: true
-    image_path: "asset/icon/Logo.png"
-    icon_size: 48 # min:48, max:256, default: 
-  # flutter pub run flutter_launcher_icons:main Run in Terminal for generate icons 
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
-  flutter_lints: ^2.0.0
-
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
-flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
-  uses-material-design: true
-
-  # To add assets to your application, add an assets section, like this:
-  assets:
-  - asset/img/waitting2.gif
-  - asset/img/waitting.png
-  - asset/img/Back.png
-  - asset/img/Back2.png
-  - asset/icon/MovieTube_Logo.png
-  - asset/icon/Logo.png
-  - asset/icon/Logo1.png
-  - asset/fonts/BebasNeue.ttf
-  #   - images/a_dot_ham.jpeg
-
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
-
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
-
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  fonts:
-  - family: Bebas
-    fonts:
-    - asset: asset/fonts/BebasNeue.ttf
-
-#
-# For details regarding fonts from package dependencies,
-# see https://flutter.dev/custom-fonts/#from-packages
-
-
+  flutter_native_splash: ^2.3.2
 flutter_native_splash:
   # flutter clean
   # flutter pub get
   #flutter pub run flutter_native_splash:create
-  # This package generates native code to customize Flutter's default white native splash screen
-  # with background color and splash image.
-  # Customize the parameters below, and run the following command in the terminal:
-  # dart run flutter_native_splash:create
-  # To restore Flutter's default white splash screen, run the following command in the terminal:
-  # dart run flutter_native_splash:remove
-
-  # color or background_image is the only required parameter.  Use color to set the background
-  # of your splash screen to a solid color.  Use background_image to set the background of your
-  # splash screen to a png image.  This is useful for gradients. The image will be stretch to the
   # size of the app. Only one parameter can be used, color and background_image cannot both be set.
   color: "#5E099F"
   image: asset/icon/Logo1.png
@@ -249,3 +167,72 @@ web_image_mode: center
 #  - 'ios/Runner/Info-Debug.plist'
 #  - 'ios/Runner/Info-Release.plist'
 # dart run flutter_native_splash:create
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "asset/icon/Logo.png"
+  web:
+    generate: true
+    image_path: "asset/icon/Logo.png"
+  windows:
+    generate: true
+    image_path: "asset/icon/Logo.png"
+    icon_size: 48 # min:48, max:256, default: 
+  # flutter pub run flutter_launcher_icons:main Run in Terminal for generate icons 
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - asset/img/waitting2.gif
+  - asset/img/waitting.png
+  - asset/img/Back.png
+  - asset/img/Back2.png
+  - asset/icon/MovieTube_Logo.png
+  - asset/icon/Logo.png
+  - asset/icon/Logo1.png
+  - asset/fonts/BebasNeue.ttf
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+  - family: Bebas
+    fonts:
+    - asset: asset/fonts/BebasNeue.ttf
+
+#
+# For details regarding fonts from package dependencies,
+# see https://flutter.dev/custom-fonts/#from-packages
+
+
